@@ -1,5 +1,5 @@
 public class seperators {
-    public static void main (String[] args) {
+    public static void main (String[] args) { 
         int a, b, c, d; // Declaring multiple variables using comma operator
         a = 10;
         b = 20;

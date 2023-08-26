@@ -5,7 +5,6 @@ public class seperators {
         b = 20;
         c = 30;
         d = 40;
-
         System.out.println("a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
     }
 }

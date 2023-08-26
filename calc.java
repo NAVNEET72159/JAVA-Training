@@ -13,7 +13,13 @@
  * Greater than: >
  * Less than: <
  * Greater than or equal to: >=
- * Less than or equal to: <=
+ * Less than or equal to: <=\
+ * Increment: ++
+    * Postfix: a++ It uses the value first and then increses the value by 1. (a = a+1)
+    * Prefix: ++a It increases the value first and then uses the value. (a = a+1)
+ * Decrement: --
+    * Postfix: a-- It uses the value first and then decreases the value by 1. (a = a-1)
+    * Prefix: --a It decreases the value first and then uses the value. (a = a-1)
 */
 
 /* Logical Operators

@@ -13,6 +13,7 @@
 public class Conditionals {
     public static void main(String[] args) {
         String mausam = "sunny";
+        // Ladder if-else
         if (mausam == "sunny") {
             System.out.println("Let's go out for a walk.");
         } else if (mausam == "rainy") {

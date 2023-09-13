@@ -19,7 +19,8 @@ public class io {
         System.out.println(name);
         System.out.print(age+ " ");
         System.out.println(gender);
-        System.out.print(salary);
+        System.out.print(salary+ " ");
+        System.out.print("My trainer name is Navneet");
     }
 }
 

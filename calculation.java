@@ -3,24 +3,55 @@ public class calculation {
         //calculate the exponetial of any number
         // 2^100
         int base = 3;
-        int power = 10;
-        double exponetial = Math.pow(base, power);
-        System.out.println(exponetial);
+        int power = 3;
 
-        //calculate the square root of any number
-        // √100
+        //To calculate the exponential
+        int expo = (int) Math.pow(base, power);
+        expo = base * base * base;
+        System.out.println(expo);
+        
+        //To calculate the square root
+        int num = 36;
+        int sqrt = (int) Math.pow(num, 0.5);
+        sqrt = (int) Math.sqrt(num);
+        System.out.println(sqrt);
 
-        double root = Math.pow(100, (1/5));
-        System.out.println(root);
+        System.out.println(Math.pow(base, power));
 
-        double root2 = Math.sqrt(base);
-        System.out.println(root2);
+        //To calculate the cube root
+        int cube = (int) Math.pow(num, 1.0/3);
+        System.out.println(cube);
 
-        int diff = base - power;
-        System.out.println(Math.abs(diff));
+        //To calculate the absolute value
+        int a = -10;
+        int abs = Math.abs(a);
+        System.out.println(abs);
 
-        System.out.println(Math.max(base, power));
-        System.out.println(Math.min(base, power));
+        //To calculate the maximum value
+        int b = 10; 
+        int max = Math.max(a, b);
+        System.out.println(max);
+
+        //To calculate the minimum value
+        int min = Math.min(a, b);
+        System.out.println(min);
+        
+        //To calculate the round value
+        float c = 10.5f;
+        float round = Math.round(c);
+        System.out.println(round);
+
+        //To calculate the floor value
+        float floor = (float) Math.floor(c);
+        System.out.println(floor);
+
+        //To calculate the ceil value
+        float ceil = (float) Math.ceil(c);
+        System.out.println(ceil);
+
+        //To calculate the random value
+        double random = Math.random();
+        System.out.println(random);
     }
 }
 /* 

@@ -24,7 +24,7 @@ public class calculation {
     }
 }
 /* 
- * Implicit Type Casting: 
+ * Implicit Type Casting:
     * Automatic Type Casting
     * int a = 3;
     * float b = a;
